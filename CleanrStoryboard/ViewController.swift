@@ -44,11 +44,12 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         }
     }()
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupVideo()
     }
-
+     
 
     func setupVideo(){
         previewView.frame = view.bounds

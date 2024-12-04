@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0DBF5B3A2D00E48200DB3FF0 /* RemindersSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF5B392D00E48200DB3FF0 /* RemindersSettings.swift */; };
+		0DBF5B3B2D00E48200DB3FF0 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF5B382D00E48200DB3FF0 /* LoginScreen.swift */; };
+		0DBF5B3D2D00E4D800DB3FF0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF5B3C2D00E4D800DB3FF0 /* Home.swift */; };
+		0DBF5B3F2D00E4F400DB3FF0 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF5B3E2D00E4F400DB3FF0 /* Todo.swift */; };
+		0DBF5B412D00E50E00DB3FF0 /* CleanrData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF5B402D00E50E00DB3FF0 /* CleanrData.swift */; };
+		0DBF5B432D00E69500DB3FF0 /* AddTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF5B422D00E69500DB3FF0 /* AddTask.swift */; };
+		0DBF5B452D00E93300DB3FF0 /* YOLO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF5B442D00E93300DB3FF0 /* YOLO.swift */; };
+		0DBF5B492D00EAAC00DB3FF0 /* YOLOinterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF5B482D00EAAC00DB3FF0 /* YOLOinterface.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0DBF5AE62D00D59100DB3FF0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +38,14 @@
 		0DBF5ACF2D00D58C00DB3FF0 /* CleanrStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanrStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DBF5AE52D00D59100DB3FF0 /* CleanrStoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanrStoryboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DBF5AEF2D00D59100DB3FF0 /* CleanrStoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanrStoryboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DBF5B382D00E48200DB3FF0 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		0DBF5B392D00E48200DB3FF0 /* RemindersSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersSettings.swift; sourceTree = "<group>"; };
+		0DBF5B3C2D00E4D800DB3FF0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0DBF5B3E2D00E4F400DB3FF0 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		0DBF5B402D00E50E00DB3FF0 /* CleanrData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanrData.swift; sourceTree = "<group>"; };
+		0DBF5B422D00E69500DB3FF0 /* AddTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTask.swift; sourceTree = "<group>"; };
+		0DBF5B442D00E93300DB3FF0 /* YOLO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLO.swift; sourceTree = "<group>"; };
+		0DBF5B482D00EAAC00DB3FF0 /* YOLOinterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOinterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +107,7 @@
 		0DBF5AC62D00D58C00DB3FF0 = {
 			isa = PBXGroup;
 			children = (
+				0DBF5B4B2D00F63C00DB3FF0 /* SwiftUIFiles */,
 				0DBF5AD12D00D58C00DB3FF0 /* CleanrStoryboard */,
 				0DBF5AE82D00D59100DB3FF0 /* CleanrStoryboardTests */,
 				0DBF5AF22D00D59100DB3FF0 /* CleanrStoryboardUITests */,
@@ -103,6 +123,21 @@
 				0DBF5AEF2D00D59100DB3FF0 /* CleanrStoryboardUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0DBF5B4B2D00F63C00DB3FF0 /* SwiftUIFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0DBF5B3C2D00E4D800DB3FF0 /* Home.swift */,
+				0DBF5B3E2D00E4F400DB3FF0 /* Todo.swift */,
+				0DBF5B402D00E50E00DB3FF0 /* CleanrData.swift */,
+				0DBF5B422D00E69500DB3FF0 /* AddTask.swift */,
+				0DBF5B442D00E93300DB3FF0 /* YOLO.swift */,
+				0DBF5B482D00EAAC00DB3FF0 /* YOLOinterface.swift */,
+				0DBF5B382D00E48200DB3FF0 /* LoginScreen.swift */,
+				0DBF5B392D00E48200DB3FF0 /* RemindersSettings.swift */,
+			);
+			path = SwiftUIFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +284,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DBF5B3A2D00E48200DB3FF0 /* RemindersSettings.swift in Sources */,
+				0DBF5B3B2D00E48200DB3FF0 /* LoginScreen.swift in Sources */,
+				0DBF5B452D00E93300DB3FF0 /* YOLO.swift in Sources */,
+				0DBF5B3F2D00E4F400DB3FF0 /* Todo.swift in Sources */,
+				0DBF5B412D00E50E00DB3FF0 /* CleanrData.swift in Sources */,
+				0DBF5B432D00E69500DB3FF0 /* AddTask.swift in Sources */,
+				0DBF5B492D00EAAC00DB3FF0 /* YOLOinterface.swift in Sources */,
+				0DBF5B3D2D00E4D800DB3FF0 /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,12 +335,13 @@
 				DEVELOPMENT_TEAM = XQVQALG694;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CleanrStoryboard/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is required to automate the task creaton process.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,12 +365,13 @@
 				DEVELOPMENT_TEAM = XQVQALG694;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CleanrStoryboard/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is required to automate the task creaton process.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

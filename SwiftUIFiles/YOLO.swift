@@ -9,41 +9,33 @@ import SwiftUI
 import AVKit
 import Vision
 import AVFoundation
+import UIKit
 
 
 struct YOLO: View {
-    //@StateObject private var model = FrameHandler()
-    //@ObservedObject private var controller = YOLOController()
-    
-    //Create YOLOController
-    //@ObservedObject var controller = YOLOController()
-    //var sceneDelegate = SceneDelegate()
     var body: some View {
         GeometryReader{ geometry in
             NavigationStack {
                 VStack {
-                    //let _ = self.callSetupVideo()
+                    Spacer()
+                        .frame(width: geometry.size.width, height: geometry.size.height * 0.65)
                     
-                    //_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions
-                    
-                    ZStack {
+                    ZStack{
                         
-                        //Button(action: { sceneDelegate.scene() }, label: { Text("Scan Room") })
+                        RoundedRectangle(cornerRadius: 20)
+                            .fill(.blue)
                         
-                        //Button(action: { callSetupVideo() }, label: { Text("Scan Room") })
+                        Text("Scan Room")
+                            
                         
-                        //Button(action: { callSetupVideo() }, label: { Text("Scan Room") })
+                        NavigationLink("         ", destination: YOLOinterface())
                         
-                        //FrameView(image: controller.previewView)
-                        
-                        Spacer()
-                            .frame(width: geometry.size.width, height: geometry.size.height * 0.70)
-                    
-                    
-                        //FrameView(image: model.frame)
-                            //.frame(width: geometry.size.width, height: geometry.size.height * 0.80)
                     }
                     
+                    Spacer()
+                        .frame(width:
+                                geometry.size.width, height: geometry.size.height * 0.05)
+        
                     HStack{
                         ZStack{
                             
@@ -92,11 +84,11 @@ struct YOLO: View {
             }//NavigationStack
         }//GeometryReader
     }//Var Body
-    /*func callSetupVideo() {
-        controller.setupVideo()
-    }*/
-}//Struct View
+}//Struct YOLO View
 
 #Preview {
     YOLO()
 }
+
+
+

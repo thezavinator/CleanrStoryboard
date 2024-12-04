@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CleanrStoryboard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,6 +43,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="626-3A-QrD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="839" y="-38"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XJS-uy-a5t">
+            <objects>
+                <hostingController storyboardIdentifier="StoryboardYOLOController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sTl-9J-zZU" customClass="ViewController" customModule="CleanrStoryboard" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="avv-ul-mKX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1752" y="-38"/>
         </scene>
     </scenes>
     <resources>
