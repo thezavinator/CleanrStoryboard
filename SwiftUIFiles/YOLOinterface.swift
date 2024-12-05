@@ -9,25 +9,22 @@ import SwiftUI
 
 struct YOLOinterface: View {
     var body: some View {
-        StoryboardYOLOController().edgesIgnoringSafeArea(.all)
-        //ZStack {
-        
-            //VStack {
-                //Spacer()
-                //Button(action: {print("Button Pressed")} ) {Text("Button")}
-                
-                //RoundedRectangle(cornerRadius: 20)
-                    //.fill(.blue)
-                
-                //Text("Add Tasks")
-                
-            //}
-            
-        //}
-        
-        
-    }
-}
+        GeometryReader{ geometry in
+            VStack {
+                StoryboardYOLOController().edgesIgnoringSafeArea(.all)
+                ZStack {
+                    RoundedRectangle(cornerRadius: 20)
+                        .fill(.blue)
+                        .frame(width: 110, height: 35)
+                    Text("Add Tasks")
+                        .font(.system(size: 20))
+                }
+                Spacer()
+                    .frame(width: geometry.size.width, height: geometry.size.height * 0.05)
+            }//VStack
+        }//GeometryReader
+    }//View body
+}//View Struct
 
 #Preview {
     YOLOinterface()
